@@ -1,0 +1,17 @@
+# Royal C Jackson Jr.
+# Skill Evaluation
+# Date: 8/9/2017
+# File:  dnsmasq -test.txt 
+# Comment: 
+
+[vagrant@localhost etc]$  dig +nocmd www.linux.com +noall +answer
+www.linux.com.          5928    IN      CNAME   n.ssl.fastly.net.
+n.ssl.fastly.net.       30      IN      A       151.101.41.5
+[vagrant@localhost etc]$
+
+
+
+[vagrant@localhost etc]$ dnsmasq --test
+dnsmasq: syntax check OK.
+[vagrant@localhost etc]
+

@@ -1,0 +1,109 @@
+# Royal C Jackson Jr.
+# Skill Evaluation
+# Date: 8/9/2017
+# File:  dnsmasq pkgs install history command line
+# Comment: history of commands
+
+
+[vagrant@localhost opt]$ history
+    1  uname -a
+    2  more /etc/release
+    3  cd /etc
+    4  ls
+    5  more redhat-release
+    6  yum install mvn
+    7  sudo yum install mvn
+    8  yum list | less
+    9  clear
+   10  hostname
+   11  ifconfig
+   12  ipconfig
+   13  ping localhost
+   14  sudo yum install nginx
+   15  rpm -ivh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+   16  sudo rpm -ivh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+   17  sudo yum -y install nginx
+   18  yum list available
+   19  yum list available | grep maven
+   20  sudo yum install maven
+   21  rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm
+   22  sudo rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm
+   23  sudo yum install puppet-server
+   24  sudo puppet resource package puppet-server ensure=latest
+   25  sudo /etc/init.d/puppetmaster restart
+   26  /etc/init.d/puppetmaster restart
+   27  cd init.d
+   28  ./puppetmaster restart
+   29  ls
+   30  which puppet
+   31  cd /usr/bin/puppet
+   32  sudo yum install puppet
+   33  /etc/init.d/puppet restart
+   34  sudo /usr/bin/puppet restart
+   35  sudo /usr/bin/puppet start
+   36  /usr/bin/puppet help
+   37  /usr/bin/puppet status
+   38  /usr/bin/puppet status help
+   39  cd /etc
+   40  ls
+   41  cd puppet
+   42  ls
+   43  cd manifests
+   44  ls
+   45  cd ../modules
+   46  ls
+   47  cd /opt
+   48  ls
+   49  sudo yum install puppet-agent
+   50  sudo puppet --version
+   51  sudo yum install simp-adapter simp
+   52  curl -s https://packagecloud.io/install/repositories/simp-project/6_X/script.rpm.sh.rpm | sudo bash
+   53  sudo yum install pupmod-simp-svckill-3.2.2-2016.1.noarch
+   54  gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E
+   55  curl -sSL https://get.rvm.io | bash -s stable --ruby=1.9.3 --ruby=2.1.
+   56  curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+   57  source ~/.rvm/scripts/rvm
+   58  curl -sSL https://keybase.io/mpapis | gpg2 --import -
+   59  sudo yum install ruby
+   60  sudo yum install git
+   61  which git
+   62  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+   63  \curl -sSL https://get.rvm.io | bash -s stable
+   64   gpg2 --keyserver hkp://keys.gnupg.net --recv-keys \   409B6B1796C275462A1703113804BB82D39DC0E
+   65  \curl -sSL https://get.rvm.io | bash -s stable --ruby=1.9.3 --ruby=2.1.
+   66   source ~/.rvm/scripts/rvm
+   67   rvm use --default 2.1.
+   68   rvm all do gem install bundler
+   69
+   70  rvm install ruby-2.1.
+   71  rvm install ruby-2.1.sudo yum install ruby
+   72  sudo yum install ruby
+   73  rvm install --ruby
+   74  rvm install
+   75  rvm install --ruby=1.9.3
+   76  sudo yum -y install httpd httpd-devel mod_ssl ruby-devel rubygems gcc gcc-c++ pygpgme curl
+   77  sudo yum install -y mod_passenger
+   78  sudo mkdir -p /usr/share/puppet/rack/puppetmasterd
+   79  sudo mkdir /usr/share/puppet/rack/puppetmasterd/public /usr/share/puppet/rack/puppetmasterd/tmp
+   80  sudo cp /usr/share/puppet/ext/rack/config.ru /usr/share/puppet/rack/puppetmasterd/
+   81  sudo chown puppet:puppet /usr/share/puppet/rack/puppetmasterd/config.ru
+   82  sudo vi /etc/httpd/conf.d/puppetmaster.conf
+   83  id
+   84  sudo systemctl restart  httpd.service
+   85  hostname
+   86  sudo yum -y install puppet
+   87  sudo vi /etc/puppet/puppet.conf
+   88  rvm all do gem install bundler
+   89  dnsmasq
+   90  sudo dnsmasq
+   91  sudo systemctl start  puppet.service
+   92  sudo systemctl enable puppet.service
+   93  puppet agent -t
+   94  sudo yum install dnsmasq
+   95  nslookup localhost.localdomain localhost
+   96  sudo yum install nslookup
+   97  sudo yum install bind-utils
+   98  nslookup localhost.localdomain localhost
+   99  history
+[vagrant@localhost opt]$
+

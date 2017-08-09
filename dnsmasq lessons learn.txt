@@ -1,0 +1,56 @@
+# Royal C Jackson Jr.
+# Skill Evaluation
+# Date: 8/9/2017
+# File:  dnsmasq lessons learn.txt
+# Comment: 
+
+
+dnsmasq lessons learn
+- what are ruby gems
+- nokogiri requires Ruby version >= 2.1.0.
+
+
+[vagrant@localhost bin]$  bundle install
+Fetching gem metadata from https://rubygems.org/..........
+Fetching version metadata from https://rubygems.org/..
+Resolving dependencies...
+Bundler could not find compatible versions for gem "ruby ":
+  In Gemfile:
+    ruby
+
+    beaker was resolved to 3.21.1, which depends on
+      ruby  (>= 2.1.8)
+
+Could not find gem 'ruby  (>= 2.1.8)', which is required by gem 'beaker', in any of the sources.
+[vagrant@localhost bin]
+
+Lessons Learn
+
+This lists all the gems I have installed.
+
+gem query --local
+
+[vagrant@localhost bin]$ sudo gem install beaker
+ERROR:  Error installing beaker:
+        nokogiri requires Ruby version >= 2.1.0.
+[vagrant@localhost bin]$
+
+
+
+
+Setting up - Puppet - module that manages ?dnsmasq
+
+- Install Vagrant
+- Install Centos
+- Install Puppet Master
+- Install Puppet Agent
+- Install Ruby
+- Install dnsmasq
+- Install rvm
+- Install bind-tools
+- Install puppet-lint
+
+
+Lessons Learn
+
+
